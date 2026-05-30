@@ -363,6 +363,4 @@ MIT
 
 ---
 
-*Built for the [Hermes Agent Challenge 2026](https://dev.to/challenges/hermes-agent-2026-05-15)*
-
 > **Hermes is the voice, the memory, the scheduler, and the delivery channel. Python is the safety brain. One without the other is incomplete. Together they form something worth deploying in a real home.**
