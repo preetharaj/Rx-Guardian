@@ -1,0 +1,22 @@
+# Medication Safety Companion — Python dependencies
+# Install: pip install -r requirements.txt
+
+# HTTP client for Hermes (Claude) API
+requests>=2.31.0,<3.0
+
+# Environment variable loading
+python-dotenv>=1.0.0,<2.0
+
+# Testing
+pytest>=9.0.0,<10.0
+
+# Telegram bot (optional — only needed for --bot mode)
+# Uncomment to enable:
+python-telegram-bot[job-queue]>=21.0,<22.0
+
+# Timezone support (Python 3.9+ has zoneinfo built-in; backport for 3.8)
+# tzdata>=2024.1  # Windows only — Linux/Mac already have timezone data
+# Voice transcription (free, local, no API key)
+# Install separately — large dependency (~500MB with models)
+#pip install faster-whisper
+faster-whisper>=1.0.0
